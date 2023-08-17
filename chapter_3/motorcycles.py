@@ -5,11 +5,11 @@
 # print(motorcycles)
 
 
-motorcycles = []
-motorcycles.append("honda")
-motorcycles.append("yamaha")
-motorcycles.append("suzuki")
-print(motorcycles)
+# motorcycles = []
+# motorcycles.append("honda")
+# motorcycles.append("yamaha")
+# motorcycles.append("suzuki")
+# print(motorcycles)
 
 
 # motorcycles = ["honda", "yamaha", "suzuki"]
@@ -33,10 +33,10 @@ print(motorcycles)
 # print(popped_motorcycle)
 
 
-# motorcycles = ["honda", "yamaha", "suzuki"]
+motorcycles = ["honda", "yamaha", "suzuki"]
 
-# last_owned = motorcycles.pop()
-# print(f"The last motorcycle I owned was a {last_owned.title()}.")
+last_owned = motorcycles.pop()
+print(f"The last motorcycle I owned was a {last_owned.title()}.")
 
 
 # motorcycles = ["honda", "yamaha", "suzuki", "ducati"]
