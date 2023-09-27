@@ -95,13 +95,28 @@
 
 #---------------------------------------------#
 
+# favourite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'rust',
+#     'phil': 'python',
+# }
+
+# print("The following languages have been mentioned:")
+# for language in set(favourite_languages.values()):
+#     print(language.title())
+
+
+#---------------------------------------------#
+
 favourite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'rust',
-    'phil': 'python',
+    'jen': ['python', 'rust'],
+    'sarah': ['c'],
+    'edward': ['rust', 'go'],
+    'phil': ['python', 'haskell'],
 }
 
-print("The following languages have been mentioned:")
-for language in set(favourite_languages.values()):
-    print(language.title())
+for name, languages in favourite_languages.items():
+    print(f"\n{name.title()}'s favourite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
