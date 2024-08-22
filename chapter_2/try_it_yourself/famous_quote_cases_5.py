@@ -1,1 +1,0 @@
-print('Muhammed Ali once said, "Float like a butterly, sting like a bee."')
