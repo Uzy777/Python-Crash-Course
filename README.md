@@ -64,3 +64,39 @@ Welcome to my Python Crash Course repository. Below is a detailed breakdown of e
 
 ### [3.4 Avoiding Index Errors When Working with Lists](./Chapter%203%3A%20Introducing%20Lists/3.4%20Avoiding%20Index%20Errors%20When%20Working%20with%20Lists)
   - [Try It Yourself](./Chapter%203%3A%20Introducing%20Lists/3.4%20Avoiding%20Index%20Errors%20When%20Working%20with%20Lists/Try%20It%20Yourself)
+
+## Chapter 4: Working With Lists
+
+### [4.1 Looping Through an Entire List](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List)
+- [4.1.1 Doing More Work Within a for Loop](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List/4.1.1%20Doing%20More%20Work%20Within%20a%20for%20Loop)
+- [4.1.2 Doing Something After a for Loop](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List/4.1.2%20Doing%20Something%20After%20a%20for%20Loop)
+
+### [4.2 Avoiding Indentation Errors](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors)
+- [4.2.1 Forgetting to Indent](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/4.2.1%20Forgetting%20to%20Indent)
+- [4.2.2 Forgetting to Indent Additional Lines](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/4.2.2%20Forgetting%20to%20Indent%20Additional%20Lines)
+- [4.2.3 Indenting Unnecessarily](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/4.2.3%20Indenting%20Unnecessarily)
+- [4.2.4 Indenting Unnecessarily After the Loop](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/4.2.4%20Indenting%20Unnecessarily%20After%20the%20Loop)
+- [4.2.5 Forgetting the Colon](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/4.2.5%20Forgetting%20the%20Colon)
+  - [Try It Yourself](./Chapter%204%3A%20Working%20With%20Lists/4.2%20Avoiding%20Indentation%20Errors/Try%20It%20Yourself)
+
+### [4.3 Making Numerical Lists](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists)
+- [4.3.1 Using the range Function](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.1%20Using%20the%20range%20Function)
+- [4.3.2 Using range to Make a List of Numbers](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.2%20Using%20range%20to%20Make%20a%20List%20of%20Numbers)
+  - [4.3.2.1 Even Numbers](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.2%20Using%20range%20to%20Make%20a%20List%20of%20Numbers/even_numbers.py)
+  - [4.3.2.2 First Numbers](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.2%20Using%20range%20to%20Make%20a%20List%20of%20Numbers/first_numbers.py)
+  - [4.3.2.3 Square Numbers](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.2%20Using%20range%20to%20Make%20a%20List%20of%20Numbers/square_numbers.py)
+- [4.3.3 Simple Statistics with a List of Numbers](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.3%20Simple%20Statistics%20with%20a%20List%20of%20Numbers)
+- [4.3.4 List Comprehensions](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/4.3.4%20List%20Comprehensions)
+  - [Try It Yourself](./Chapter%204%3A%20Working%20With%20Lists/4.3%20Making%20Numerical%20Lists/Try%20It%20Yourself)
+
+### [4.4 Working with Part of a List](./Chapter%204%3A%20Working%20With%20Lists/4.4%20Working%20with%20Part%20of%20a%20List)
+- [4.4.1 Slicing a List](./Chapter%204%3A%20Working%20With%20Lists/4.4%20Working%20with%20Part%20of%20a%20List/4.4.1%20Slicing%20a%20List)
+- [4.4.2 Looping Through a Slice](./Chapter%204%3A%20Working%20With%20Lists/4.4%20Working%20with%20Part%20of%20a%20List/4.4.2%20Looping%20Through%20a%20Slice)
+- [4.4.3 Copying a List](./Chapter%204%3A%20Working%20With%20Lists/4.4%20Working%20with%20Part%20of%20a%20List/4.4.3%20Copying%20a%20List)
+  - [Try It Yourself](./Chapter%204%3A%20Working%20With%20Lists/4.4%20Working%20with%20Part%20of%20a%20List/Try%20It%20Yourself)
+
+### [4.5 Tuples](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples)
+- [4.5.1 Defining a Tuple](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/4.5.1%20Defining%20a%20Tuple)
+- [4.5.2 Looping Through All Values in a Tuple](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/4.5.2%20Looping%20Through%20All%20Values%20in%20a%20Tuple)
+- [4.5.3 Writing Over a Tuple](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/4.5.3%20Writing%20Over%20a%20Tuple)
+  - [Try It Yourself](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/Try%20It%20Yourself)
