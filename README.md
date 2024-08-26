@@ -100,3 +100,65 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 - [4.5.2 Looping Through All Values in a Tuple](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/4.5.2%20Looping%20Through%20All%20Values%20in%20a%20Tuple)
 - [4.5.3 Writing Over a Tuple](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/4.5.3%20Writing%20Over%20a%20Tuple)
   - [Try It Yourself](./Chapter%204%3A%20Working%20With%20Lists/4.5%20Tuples/Try%20It%20Yourself)
+
+## Chapter 5: If Statements
+
+### [5.1 A Simple Example](./Chapter%205%3A%20If%20Statements/5.1%20A%20Simple%20Example)
+
+### [5.2 Conditional Tests](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests)
+- [5.2.1 Checking for Equality](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.1%20Checking%20for%20Equality)
+- [5.2.2 Ignoring Case When Checking for Equality](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.2%20Ignoring%20Case%20When%20Checking%20for%20Equality)
+- [5.2.3 Checking for Inequality](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.3%20Checking%20for%20Inequality)
+- [5.2.4 Numerical Comparisons](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.4%20Numerical%20Comparisons)
+- [5.2.5 Checking Multiple Conditions](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.5%20Checking%20Multiple%20Conditions)
+  - [5.2.5.1 Using and to Check Multiple Conditions](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.5%20Checking%20Multiple%20Conditions/5.2.5.1%20Using%20and%20to%20Check%20Multiple%20Conditions)
+  - [5.2.5.2 Using or to Check Multiple Conditions](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.5%20Checking%20Multiple%20Conditions/5.2.5.2%20Using%20or%20to%20Check%20Multiple%20Conditions)
+- [5.2.6 Checking Whether a Value Is in a List](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.6%20Checking%20Whether%20a%20Value%20Is%20in%20a%20List)
+- [5.2.7 Checking Whether a Value Is Not in a List](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.7%20Checking%20Whether%20a%20Value%20Is%20Not%20in%20a%20List)
+- [5.2.8 Boolean Expressions](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.8%20Boolean%20Expressions)
+  - [Try It Yourself](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/Try%20It%20Yourself)
+
+### [5.3 if Statements](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements)
+- [5.3.1 Simple if Statements](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.1%20Simple%20if%20Statements)
+- [5.3.2 if-else Statements](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.2%20if-else%20Statements)
+- [5.3.3 The if-elif-else Chain](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.3%20The%20if-elif-else%20Chain)
+- [5.3.4 Using Multiple elif Blocks](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.4%20Using%20Multiple%20elif%20Blocks)
+- [5.3.5 Omitting the else Block](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.5%20Omitting%20the%20else%20Block)
+- [5.3.6 Testing Multiple Conditions](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/5.3.6%20Testing%20Multiple%20Conditions)
+  - [Try It Yourself](./Chapter%205%3A%20If%20Statements/5.3%20if%20Statements/Try%20It%20Yourself)
+
+### [5.4 Using if Statements with Lists](./Chapter%205%3A%20If%20Statements/5.4%20Using%20if%20Statements%20with%20Lists)
+- [5.4.1 Checking for Special Items](./Chapter%205%3A%20If%20Statements/5.4%20Using%20if%20Statements%20with%20Lists/5.4.1%20Checking%20for%20Special%20Items)
+- [5.4.2 Checking That a List Is Not Empty](./Chapter%205%3A%20If%20Statements/5.4%20Using%20if%20Statements%20with%20Lists/5.4.2%20Checking%20That%20a%20List%20Is%20Not%20Empty)
+- [5.4.3 Using Multiple Lists](./Chapter%205%3A%20If%20Statements/5.4%20Using%20if%20Statements%20with%20Lists/5.4.3%20Using%20Multiple%20Lists)
+  - [Try It Yourself](./Chapter%205%3A%20If%20Statements/5.4%20Using%20if%20Statements%20with%20Lists/Try%20It%20Yourself)
+
+### [5.5 Styling Your if Statements](./Chapter%205%3A%20If%20Statements/5.5%20Styling%20Your%20if%20Statements)
+  - [Try It Yourself](./Chapter%205%3A%20If%20Statements/5.5%20Styling%20Your%20if%20Statements/Try%20It%20Yourself)
+
+## Chapter 6: Dictionaries
+
+### [6.1 A Simple Dictionary](./Chapter%206%3A%20Dictionaries/6.1%20A%20Simple%20Dictionary)
+
+### [6.2 Working with Dictionaries](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries)
+- [6.2.1 Accessing Values in a Dictionary](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.1%20Accessing%20Values%20in%20a%20Dictionary)
+- [6.2.2 Adding New Key-Value Pairs](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.2%20Adding%20New%20Key-Value%20Pairs)
+- [6.2.3 Starting with an Empty Dictionary](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.3%20Starting%20with%20an%20Empty%20Dictionary)
+- [6.2.4 Modifying Values in a Dictionary](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.4%20Modifying%20Values%20in%20a%20Dictionary)
+- [6.2.5 Removing Key-Value Pairs](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.5%20Removing%20Key-Value%20Pairs)
+- [6.2.6 A Dictionary of Similar Objects](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.6%20A%20Dictionary%20of%20Similar%20Objects)
+- [6.2.7 Using get to Access Values](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.7%20Using%20get%20to%20Access%20Values)
+  - [Try It Yourself](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/Try%20It%20Yourself)
+
+### [6.3 Looping Through a Dictionary](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary)
+- [6.3.1 Looping Through All Key-Value Pairs](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary/6.3.1%20Looping%20Through%20All%20Key-Value%20Pairs)
+- [6.3.2 Looping Through All the Keys in a Dictionary](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary/6.3.2%20Looping%20Through%20All%20the%20Keys%20in%20a%20Dictionary)
+- [6.3.3 Looping Through a Dictionary's Keys in a Particular Order](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary/6.3.3%20Looping%20Through%20a%20Dictionary's%20Keys%20in%20a%20Particular%20Order)
+- [6.3.4 Looping Through All Values in a Dictionary](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary/6.3.4%20Looping%20Through%20All%20Values%20in%20a%20Dictionary)
+  - [Try It Yourself](./Chapter%206%3A%20Dictionaries/6.3%20Looping%20Through%20a%20Dictionary/Try%20It%20Yourself)
+
+### [6.4 Nesting](./Chapter%206%3A%20Dictionaries/6.4%20Nesting)
+- [6.4.1 A List of Dictionaries](./Chapter%206%3A%20Dictionaries/6.4%20Nesting/6.4.1%20A%20List%20of%20Dictionaries)
+- [6.4.2 A List in a Dictionary](./Chapter%206%3A%20Dictionaries/6.4%20Nesting/6.4.2%20A%20List%20in%20a%20Dictionary)
+- [6.4.3 A Dictionary in a Dictionary](./Chapter%206%3A%20Dictionaries/6.4%20Nesting/6.4.3%20A%20Dictionary%20in%20a%20Dictionary)
+  - [Try It Yourself](./Chapter%206%3A%20Dictionaries/6.4%20Nesting/Try%20It%20Yourself)
