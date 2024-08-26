@@ -1,6 +1,6 @@
 # Python Crash Course Project Breakdown
 
-Welcome to my Python Crash Course repository. Below is a detailed breakdown of each chapter and sub-chapter. Click on any section to view the code and exercises.
+Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 
 # Table of Contents
 
