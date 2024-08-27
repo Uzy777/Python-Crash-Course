@@ -233,14 +233,3 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 - [8.6.8 Try It Yourself](./Chapter%208%3A%20Functions/8.6%20Storing%20Your%20Functions%20in%20Modules/Try%20It%20Yourself)
 
 ### [8.7 Functions: Your Turn](./Chapter%208%3A%20Functions/8.7%20Functions%20Your%20Turn)
-
-
-
-# Progress Tracker
-
-## Chapters
-
-- [x] [Chapter 1 - Completed](#chapter-1)
-- [ ] [Chapter 2 - In Progress](#chapter-2)
-- [ ] [Chapter 3 - Not Started](#chapter-3)
-- [ ] [Chapter 4 - Not Started](#chapter-4)
