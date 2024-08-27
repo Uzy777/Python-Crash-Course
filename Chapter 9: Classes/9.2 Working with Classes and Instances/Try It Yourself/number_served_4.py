@@ -9,7 +9,6 @@
 #                       served. Call this method with any number you like that could represent how many customers were served in,
 #                       say, a day of business.
 
-
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name

@@ -6,8 +6,6 @@
 #                       to make sure it was incremented properly, and then call reset_login_attempts(). Print login_attempts again to make sure
 #                       it was reset to 0.
 
-
-
 class User:
     def __init__(self, first_name, last_name, age, sex, ethnicity, login_attempts):
         self.first_name = first_name
