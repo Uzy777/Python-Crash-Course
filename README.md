@@ -240,9 +240,7 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 
 ## Chapters
 
-<ul>
-  <li style="color: green;"><a href="#chapter-1">Chapter 1 - Completed</a></li>
-  <li style="color: orange;"><a href="#chapter-2">Chapter 2 - In Progress</a></li>
-  <li style="color: red;"><a href="#chapter-3">Chapter 3 - Not Started</a></li>
-  <li style="color: grey;"><a href="#chapter-4">Chapter 4 - Not Started</a></li>
-</ul>
+- [x] [Chapter 1 - Completed](#chapter-1)
+- [ ] [Chapter 2 - In Progress](#chapter-2)
+- [ ] [Chapter 3 - Not Started](#chapter-3)
+- [ ] [Chapter 4 - Not Started](#chapter-4)
