@@ -233,3 +233,40 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 - [8.6.8 Try It Yourself](./Chapter%208%3A%20Functions/8.6%20Storing%20Your%20Functions%20in%20Modules/Try%20It%20Yourself)
 
 ### [8.7 Functions: Your Turn](./Chapter%208%3A%20Functions/8.7%20Functions%20Your%20Turn)
+
+
+## Chapter 9: Classes
+
+### [9.1 Creating and Using a Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class)
+- [9.1.1 Creating the Dog Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.1%20Creating%20the%20Dog%20Class)
+- [9.1.2 Making an Instance from a Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.2%20Making%20an%20Instance%20from%20a%20Class)
+  - [9.1.2.1 Calling Methods](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.2%20Making%20an%20Instance%20from%20a%20Class/9.1.2.1%20Calling%20Methods)
+  - [9.1.2.2 Creating Multiple Instances](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.2%20Making%20an%20Instance%20from%20a%20Class/9.1.2.2%20Creating%20Multiple%20Instances)
+- [Try It Yourself](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/Try%20It%20Yourself)
+
+### [9.2 Working with Classes and Instances](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances)
+- [9.2.1 The Car Class](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.1%20The%20Car%20Class)
+- [9.2.2 Setting a Default Value for an Attribute](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.2%20Setting%20a%20Default%20Value%20for%20an%20Attribute)
+- [9.2.3 Modifying Attribute Values](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values)
+  - [9.2.3.1 Modifying an Attribute's Value Directly](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values/9.2.3.1%20Modifying%20an%20Attribute%27s%20Value%20Directly)
+  - [9.2.3.2 Modifying an Attribute's Value Through a Method](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values/9.2.3.2%20Modifying%20an%20Attribute%27s%20Value%20Through%20a%20Method)
+  - [9.2.3.3 Incrementing an Attribute's Value Through a Method](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values/9.2.3.3%20Incrementing%20an%20Attribute%27s%20Value%20Through%20a%20Method)
+- [Try It Yourself](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/Try%20It%20Yourself)
+
+### [9.3 Inheritance](./Chapter%209%3A%20Classes/9.3%20Inheritance)
+- [9.3.1 The init Method for a Child Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.1%20The%20init%20Method%20for%20a%20Child%20Class)
+- [9.3.2 Defining Attributes and Methods for the Child Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.2%20Defining%20Attributes%20and%20Methods%20for%20the%20Child%20Class)
+- [9.3.3 Overriding Methods from the Parent Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.3%20Overriding%20Methods%20from%20the%20Parent%20Class)
+- [9.3.4 Instances as Attributes](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.4%20Instances%20as%20Attributes)
+- [Try It Yourself](./Chapter%209%3A%20Classes/9.3%20Inheritance/Try%20It%20Yourself)
+
+### [9.4 Importing Classes](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes)
+- [9.4.1 Importing a Single Class](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/9.4.1%20Importing%20a%20Single%20Class)
+- [9.4.2 Storing Multiple Classes in a Module](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/9.4.2%20Storing%20Multiple%20Classes%20in%20a%20Module)
+- [9.4.3 Importing Multiple Classes from a Module](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/9.4.3%20Importing%20Multiple%20Classes%20from%20a%20Module)
+- [9.4.4 Importing an Entire Module](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/9.4.4%20Importing%20an%20Entire%20Module)
+- [9.4.5 Importing a Module into a Module](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/9.4.5%20Importing%20a%20Module%20into%20a%20Module)
+- [Try It Yourself](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes/Try%20It%20Yourself)
+
+### [9.5 The Python Standard Library](./Chapter%209%3A%20Classes/9.5%20The%20Python%20Standard%20Library)
+- [Try It Yourself](./Chapter%209%3A%20Classes/9.5%20The%20Python%20Standard%20Library/Try%20It%20Yourself)
