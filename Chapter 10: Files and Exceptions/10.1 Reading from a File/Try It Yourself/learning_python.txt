@@ -1,0 +1,7 @@
+In Python you can use Variables and Simple Data Types
+In Python you can work with Lists
+In Python you can use If Statements
+In Python you can work with Dictionaries
+In Python you can use Loops
+In Python you can use Functions
+In Python you can use Classes
