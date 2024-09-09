@@ -4,6 +4,8 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 
 # Table of Contents
 
+# Table of Contents
+
 - **Chapter 1: Basics**
   - [1.1 Running a Hello World Program](./Chapter%201%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
 - **Chapter 2: Variables and Simple Data Types**
@@ -33,25 +35,25 @@ Following the Python Crash Course [Third Edition] Book by Eric Matthes.
   - [6.1 A Simple Dictionary](./Chapter%206%20Dictionaries/6.1%20A%20Simple%20Dictionary)
   - [6.2 Working with Dictionaries](./Chapter%206%20Dictionaries/6.2%20Working%20with%20Dictionaries)
   - [6.3 Styling Your Dictionaries](./Chapter%206%20Dictionaries/6.3%20Styling%20Your%20Dictionaries)
-  - [6.4 Nesting](./Chapter%206%3A%20Dictionaries/6.4%20Nesting)
+  - [6.4 Nesting](./Chapter%206%20Dictionaries/6.4%20Nesting)
 - **Chapter 7: User Input and While Loops**
-  - [7.1 How the input Function Works](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.1%20How%20the%20input%20Function%20Works)
-  - [7.2 Introducing while Loops](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.2%20Introducing%20while%20Loops)
-  - [7.3 Using a while Loop with Lists and Dictionaries](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.3%20Using%20a%20while%20Loop%20with%20Lists%20and%20Dictionaries)
+  - [7.1 How the input Function Works](./Chapter%207%20User%20Input%20and%20While%20Loops/7.1%20How%20the%20input%20Function%20Works)
+  - [7.2 Introducing while Loops](./Chapter%207%20User%20Input%20and%20While%20Loops/7.2%20Introducing%20while%20Loops)
+  - [7.3 Using a while Loop with Lists and Dictionaries](./Chapter%207%20User%20Input%20and%20While%20Loops/7.3%20Using%20a%20while%20Loop%20with%20Lists%20and%20Dictionaries)
 - **Chapter 8: Functions**
-  - [8.1 Defining a Function](./Chapter%208%3A%20Functions/8.1%20Defining%20a%20Function)
-  - [8.2 Passing Arguments](./Chapter%208%3A%20Functions/8.2%20Passing%20Arguments)
-  - [8.3 Return Values](./Chapter%208%3A%20Functions/8.3%20Return%20Values)
-  - [8.4 Passing a List](./Chapter%208%3A%20Functions/8.4%20Passing%20a%20List)
-  - [8.5 Passing an Arbitrary Number of Arguments](./Chapter%208%3A%20Functions/8.5%20Passing%20an%20Arbitrary%20Number%20of%20Arguments)
-  - [8.6 Storing Your Functions in Modules](./Chapter%208%3A%20Functions/8.6%20Storing%20Your%20Functions%20in%20Modules)
-  - [8.7 Functions: Your Turn](./Chapter%208%3A%20Functions/8.7%20Functions%20Your%20Turn)
+  - [8.1 Defining a Function](./Chapter%208%20Functions/8.1%20Defining%20a%20Function)
+  - [8.2 Passing Arguments](./Chapter%208%20Functions/8.2%20Passing%20Arguments)
+  - [8.3 Return Values](./Chapter%208%20Functions/8.3%20Return%20Values)
+  - [8.4 Passing a List](./Chapter%208%20Functions/8.4%20Passing%20a%20List)
+  - [8.5 Passing an Arbitrary Number of Arguments](./Chapter%208%20Functions/8.5%20Passing%20an%20Arbitrary%20Number%20of%20Arguments)
+  - [8.6 Storing Your Functions in Modules](./Chapter%208%20Functions/8.6%20Storing%20Your%20Functions%20in%20Modules)
+  - [8.7 Functions: Your Turn](./Chapter%208%20Functions/8.7%20Functions%20Your%20Turn)
 - **Chapter 9: Classes**
-  - [9.1 Creating and Using a Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class)
-  - [9.2 Working with Classes and Instances](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances)
-  - [9.3 Inheritance](./Chapter%209%3A%20Classes/9.3%20Inheritance)
-  - [9.4 Importing Classes](./Chapter%209%3A%20Classes/9.4%20Importing%20Classes)
-  - [9.5 The Python Standard Library](./Chapter%209%3A%20Classes/9.5%20The%20Python%20Standard%20Library)
+  - [9.1 Creating and Using a Class](./Chapter%209%20Classes/9.1%20Creating%20and%20Using%20a%20Class)
+  - [9.2 Working with Classes and Instances](./Chapter%209%20Classes/9.2%20Working%20with%20Classes%20and%20Instances)
+  - [9.3 Inheritance](./Chapter%209%20Classes/9.3%20Inheritance)
+  - [9.4 Importing Classes](./Chapter%209%20Classes/9.4%20Importing%20Classes)
+  - [9.5 The Python Standard Library](./Chapter%209%20Classes/9.5%20The%20Python%20Standard%20Library)
 - **Chapter 10: Files and Exceptions**
   - [10.1 Reading from a File](./Chapter%2010%20Files%20and%20Exceptions/10.1%20Reading%20from%20a%20File)
   - [10.2 Writing to a File](./Chapter%2010%20Files%20and%20Exceptions/10.2%20Writing%20to%20a%20File)
