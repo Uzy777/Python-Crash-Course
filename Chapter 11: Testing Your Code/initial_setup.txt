@@ -1,0 +1,8 @@
+install using pyenv:
+
+pyenv install 3.11.0
+pyenv local 3.11.0
+python -m venv venv
+source venv/bin/activate   # bash
+. venv/bin/activate.fish   # fish
+python --version  
