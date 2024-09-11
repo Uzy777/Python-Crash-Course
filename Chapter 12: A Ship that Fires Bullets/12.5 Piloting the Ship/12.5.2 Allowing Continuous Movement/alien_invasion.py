@@ -1,3 +1,5 @@
+# A Ship that Fires Bullets - Piloting the Ship - Allowing Continuous Movement
+
 import sys
 import pygame
 
@@ -35,19 +37,12 @@ class AlienInvasion:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-            # Perform when the key is pressed
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RIGHT:
                     self.ship.moving_right = True
-                if event.key == pygame.K_LEFT:
-                    self.ship.moving_left = True
-
-            # Perform when the key is not pressed
             elif event.type == pygame.KEYUP:
                 if event.key == pygame.K_RIGHT:
                     self.ship.moving_right = False
-                if event.key == pygame.K_LEFT:
-                    self.ship.moving_left = False
 
     def _update_screen(self):
         """Update images on the scree, and flip to the new screen."""

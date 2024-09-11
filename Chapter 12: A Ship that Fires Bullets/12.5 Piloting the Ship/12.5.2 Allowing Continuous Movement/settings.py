@@ -1,3 +1,5 @@
+# A Ship that Fires Bullets - Piloting the Ship - Allowing Continuous Movement
+
 class Settings:
     """A class to store all settings for Alien Invasion."""
 
@@ -8,6 +10,3 @@ class Settings:
         self.screen_height = 800
         # self.bg_colour = (230, 230, 230)      # Grey
         self.bg_colour = (0, 0, 0)              # Black
-
-        # Ship settings
-        self.ship_speed = 2
