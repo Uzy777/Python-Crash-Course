@@ -30,7 +30,6 @@ class AlienInvasion:
         # Create an instance to store game statistics.
         # and create a scoreboard.
         self.stats = GameStats(self)
-        self.current_mode = "medium"  # Default mode
         self.sb = Scoreboard(self)
 
         self.ship = Ship(self)
@@ -113,14 +112,6 @@ class AlienInvasion:
         if button_clicked and not self.game_active:
             # Reset the game settings.
             self.settings.initialise_dynamic_settings()
-
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
             self._start_game()
 
     def _check_mode(self, mouse_pos):
@@ -129,43 +120,16 @@ class AlienInvasion:
         if self.easy_button.rect.collidepoint(mouse_pos) and not self.game_active:
             # Set easy mode settings
             self.settings.set_easy_mode()
-            self.current_mode = "easy"
-
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
             self._start_game()
 
         # Medium Mode
         elif self.medium_button.rect.collidepoint(mouse_pos) and not self.game_active:
             self.settings.set_medium_mode()
-            self.current_mode = "medium"
-
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
             self._start_game()
 
         # Hard Mode
         elif self.hard_button.rect.collidepoint(mouse_pos) and not self.game_active:
             self.settings.set_hard_mode()
-            self.current_mode = "hard"
-
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
             self._start_game()
 
     def _start_game(self):
@@ -187,9 +151,8 @@ class AlienInvasion:
     def _ship_hit(self):
         """Respond to the ship being hit by an alien."""
         if self.stats.ships_left > 0:
-            # Decrement ships_left, and update scoreboard.
+            # Decrement ships_left.
             self.stats.ships_left -= 1
-            self.sb.prep_ships()
 
             # Get rid of any remaining bullets and aliens.
             self.bullets.empty()
@@ -275,21 +238,11 @@ class AlienInvasion:
         # Remove any bullets and aliens that have collided.
         collisions = pygame.sprite.groupcollide(self.bullets, self.aliens, True, True)
 
-        if collisions:
-            for aliens in collisions.values():
-                self.stats.score += self.settings.alien_points * len(aliens)
-            self.sb.prep_score()
-            self.sb.check_high_score()
-
         if not self.aliens:
             # Destroy existing bullets and create new fleet.
             self.bullets.empty()
             self._create_fleet()
             self.settings.increase_speed()
-
-            # Increase level.
-            self.stats.level += 1
-            self.sb.prep_level()
 
     def _update_aliens(self):
         """Check if the fleet is at an edge, then update positions"""

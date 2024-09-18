@@ -26,9 +26,6 @@ class Settings:
 
         # How quickly the game speeds up
         self.speedup_scale = 1.2
-        # How quickly the alien point values increase
-        self.score_scale = 1.5
-
         self.initialise_dynamic_settings()
 
     def initialise_dynamic_settings(self):
@@ -41,12 +38,10 @@ class Settings:
         self.alien_points = 50
 
     def increase_speed(self):
-        """Increase speed settings and alien point values."""
+        """Increase speed settings."""
         self.ship_speed *= self.speedup_scale
         self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
-
-        self.alien_points = int(self.alien_points * self.score_scale)
 
     def set_easy_mode(self):
         """Set settings for easy mode."""
