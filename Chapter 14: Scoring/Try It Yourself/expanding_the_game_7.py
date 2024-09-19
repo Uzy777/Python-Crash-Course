@@ -2,3 +2,4 @@
 #                               You can also add shields for you ship to hide behind, which can be destroyed by bullets from either side.
 #                               Or you can use something like the 'pygame.mixer' module to add sound effects, such as explosions and shooting sounds.
 
+# pygame.mixer module implemented
