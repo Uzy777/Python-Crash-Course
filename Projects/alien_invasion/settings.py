@@ -11,12 +11,14 @@ class Settings:
 
         # Ship settings
         self.ship_limit = 3
+        self.ship_speed = 10.0
 
         # Bullet settings
         self.bullet_width = 5
         self.bullet_height = 15
         self.bullet_colour = (255, 255, 255)
         self.bullets_allowed = 6
+        self.bullet_speed = 7.0
 
         # Alien settings
         # self.alien_speed = 2.0
@@ -33,7 +35,6 @@ class Settings:
 
     def initialise_dynamic_settings(self):
         """Initialise settings that change throughout the game."""
-        self.ship_speed = 12.0
         self.bullet_speed = 7.0
         self.alien_speed = 1.0
 
@@ -42,35 +43,27 @@ class Settings:
 
     def increase_speed(self):
         """Increase speed settings and alien point values."""
-        self.ship_speed *= self.speedup_scale
-        self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
 
         self.alien_points = int(self.alien_points * self.score_scale)
 
     def set_easy_mode(self):
         """Set settings for easy mode."""
-        self.ship_speed = 15.0
-        self.bullet_speed = 12.0
-        self.alien_speed = 0.5
+        self.alien_speed = 0.6
 
         # Scoring settings
-        self.alien_points = 10
+        self.alien_points = 50
 
     def set_medium_mode(self):
         """Set settings for medium mode."""
-        self.ship_speed = 12.0
-        self.bullet_speed = 7.0
-        self.alien_speed = 1
+        self.alien_speed = 1.2
 
         # Scoring settings
         self.alien_points = 50
 
     def set_hard_mode(self):
         """Set settings for hard mode."""
-        self.ship_speed = 8.0
-        self.bullet_speed = 4.0
         self.alien_speed = 2
 
         # Scoring settings
-        self.alien_points = 100
+        self.alien_points = 50

@@ -2,6 +2,9 @@
 
 Following the Python Crash Course [Third Edition] Book by Eric Matthes.
 
+Music:
+https://pixabay.com/music/upbeat-space-120280/
+
 # Table of Contents
 
 <!-- ## Chapter 1: Basics

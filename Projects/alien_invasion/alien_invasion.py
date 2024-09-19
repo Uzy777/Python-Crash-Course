@@ -20,6 +20,26 @@ class AlienInvasion:
         self.clock = pygame.time.Clock()
         self.settings = Settings()
 
+        # Pygame Sound
+        pygame.mixer.init()
+        pygame.mixer.music.load("Projects/alien_invasion/sound/space-120280.mp3")
+        pygame.mixer.music.play(loops=-1, start=0.0)  # play music with infinite loop
+        pygame.mixer.music.set_volume(0.6)
+        pygame.mixer.music.pause()
+
+        self.laser_sound = pygame.mixer.Sound(
+            "Projects/alien_invasion/sound/laser-gun-81720.mp3"
+        )
+        self.laser_sound.set_volume(0.6)
+
+        self.splatter_sound = pygame.mixer.Sound(
+            "Projects/alien_invasion/sound/splattt-6295.mp3"
+        )
+
+        self.explosion = pygame.mixer.Sound(
+            "Projects/alien_invasion/sound/medium-explosion-40472.mp3"
+        )
+
         # self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
         self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
         self.settings.screen_width = self.screen.get_rect().width
@@ -73,6 +93,7 @@ class AlienInvasion:
         # Watch for keyboard and mouse events.
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                self.stats.saving_high_score(self.current_mode)
                 sys.exit()
             # Perform when the key is pressed
             elif event.type == pygame.KEYDOWN:
@@ -94,6 +115,7 @@ class AlienInvasion:
         elif event.key == pygame.K_LEFT:
             self.ship.moving_left = True
         elif event.key == pygame.K_q:
+            self.stats.saving_high_score(self.current_mode)
             sys.exit()
         elif event.key == pygame.K_SPACE:
             self._fire_bullet()
@@ -114,14 +136,10 @@ class AlienInvasion:
             # Reset the game settings.
             self.settings.initialise_dynamic_settings()
 
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
+            # Prepare the Game
+            self._prepare_game()
             self._start_game()
+            pygame.mixer.music.unpause()
 
     def _check_mode(self, mouse_pos):
         """Check what mode is clicked."""
@@ -131,42 +149,37 @@ class AlienInvasion:
             self.settings.set_easy_mode()
             self.current_mode = "easy"
 
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
+            # Prepare the Game
+            self._prepare_game()
             self._start_game()
+            pygame.mixer.music.unpause()
 
         # Medium Mode
         elif self.medium_button.rect.collidepoint(mouse_pos) and not self.game_active:
             self.settings.set_medium_mode()
             self.current_mode = "medium"
 
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
+            # Prepare the Game
+            self._prepare_game()
             self._start_game()
+            pygame.mixer.music.unpause()
 
         # Hard Mode
         elif self.hard_button.rect.collidepoint(mouse_pos) and not self.game_active:
             self.settings.set_hard_mode()
             self.current_mode = "hard"
 
-            # Reset the game statistics.
-            self.stats.reset_stats()
-            self.sb.prep_score()
-            self.sb.prep_high_score()
-            self.sb.prep_level()
-            self.sb.prep_ships()
-
+            # Prepare the Game
+            self._prepare_game()
             self._start_game()
+            pygame.mixer.music.unpause()
+
+    def _prepare_game(self):
+        self.stats.reset_stats()
+        self.sb.prep_score()
+        self.sb.prep_high_score()
+        self.sb.prep_level()
+        self.sb.prep_ships()
 
     def _start_game(self):
         # Reset the game statistics.
@@ -198,9 +211,10 @@ class AlienInvasion:
             # Create a new fleet and center the ship.
             self._create_fleet()
             self.ship.center_ship()
+            self.explosion.play()
 
             # Pause.
-            sleep(0.5)
+            sleep(1)
         else:
             self.game_active = False
             pygame.mouse.set_visible(True)
@@ -210,6 +224,7 @@ class AlienInvasion:
         if len(self.bullets) < self.settings.bullets_allowed:
             new_bullet = Bullet(self)
             self.bullets.add(new_bullet)
+            self.laser_sound.play()
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
@@ -280,6 +295,7 @@ class AlienInvasion:
                 self.stats.score += self.settings.alien_points * len(aliens)
             self.sb.prep_score()
             self.sb.check_high_score()
+            self.splatter_sound.play()
 
         if not self.aliens:
             # Destroy existing bullets and create new fleet.
@@ -288,8 +304,12 @@ class AlienInvasion:
             self.settings.increase_speed()
 
             # Increase level.
-            self.stats.level += 1
-            self.sb.prep_level()
+            self.start_new_level()
+
+    def start_new_level(self):
+        """Increase the level and difficulty"""
+        self.stats.level += 1
+        self.sb.prep_level()
 
     def _update_aliens(self):
         """Check if the fleet is at an edge, then update positions"""
