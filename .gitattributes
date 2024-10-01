@@ -1,2 +1,2 @@
-*.csv linguist-vendored
-# *.html linguist-vendored
+# Ignore CSV files in the weather_data directory for language statistics
+Chapter\ 16:\ Downloading\ Data/weather_data/*.csv linguist-vendored
