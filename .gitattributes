@@ -1,3 +1,4 @@
+*.python linguist-detectable=true
 *.csv linguist-detectable=false
-# *.html linguist-vendored
+*.html linguist-detectable=false
 
