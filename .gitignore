@@ -4,3 +4,4 @@ venv/
 __pycache__/
 .vscode/
 s.png
+Chapter\ 16:\ Downloading\ Data/weather_data/*.csv
