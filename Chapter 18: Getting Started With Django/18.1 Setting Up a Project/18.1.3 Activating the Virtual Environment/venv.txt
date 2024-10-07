@@ -1,0 +1,2 @@
+source ll_env/bin/activate   # bash
+. ll_env/bin/activate.fish   # fish
