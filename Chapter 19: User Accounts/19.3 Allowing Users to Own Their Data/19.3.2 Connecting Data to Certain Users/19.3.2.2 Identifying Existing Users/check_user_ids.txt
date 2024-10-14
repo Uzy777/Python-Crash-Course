@@ -1,0 +1,13 @@
+python manage.py shell
+
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+>>> for user in User.objects.all():
+...     print (user.username, user.id)
+... 
+
+
+ll_admin 1
+timmy 2
+timmyy 3
+ 
