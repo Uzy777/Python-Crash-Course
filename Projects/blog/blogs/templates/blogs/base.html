@@ -1,6 +1,6 @@
 <p>
-    <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
-    <a href="{% url 'learning_logs:topics' %}">Topics</a> -
+    <a href="{% url 'blogs:index' %}">Blogs Project</a> -
+    <a href="{% url 'blogs:blogs' %}">Blogs</a> -
     {% if user.is_authenticated %}
         Hello, {{ user.username }}.
     {% else %}

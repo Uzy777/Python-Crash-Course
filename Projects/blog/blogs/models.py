@@ -1,10 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-
 # Create your models here.
-class Topic(models.Model):
-    """A topic the user is learning about."""
+class Blog(models.Model):
+    """A blog """
 
     text = models.CharField(max_length=200)
     date_added = models.DateTimeField(auto_now_add=True)
@@ -15,18 +14,18 @@ class Topic(models.Model):
         return self.text
 
 
-class Entry(models.Model):
-    """Something specific learned about a topic."""
+class Post(models.Model):
+    """Information about a blog."""
 
-    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+    blog = models.ForeignKey(Blog, on_delete=models.CASCADE)
     text = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        verbose_name_plural = "entries"
+        verbose_name_plural = "posts"
 
     def __str__(self):
-        """Return a simple string representing the entry."""
+        """Return a simple string representing the post."""
         # Add ellipsis (...) >= 50 characters
         if len(self.text) >= 50:
             return f"{self.text[:50]}..."
