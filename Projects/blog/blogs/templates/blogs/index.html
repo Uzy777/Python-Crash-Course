@@ -1,5 +1,12 @@
 {% extends 'blogs/base.html' %}
 
-{% block content %}
-    <p>Blogs with individual posts for you to take a look through.</p>
-{% endblock content%}
+{% block page_header %}
+    <div class="p-3 mb-4 bg-light border rounded-3">
+        <div class="container-fluid py-4">
+            <h1 class="display-3">Welcome to the homepage!</h1>
+
+            <p class="lead">Blogs with individual posts for you to take a look through.</p>
+            <a class="btn btn-primary btn-lg mt-1" href="{ % url 'accounts:register' %}">Register &raquo;</a>
+        </div>
+    </div>
+{% endblock page_header %}
