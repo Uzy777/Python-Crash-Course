@@ -4,7 +4,7 @@ type: "python:3.12"
 relationships:
     database: "db:postgresql"
 
-# The configuration of the app when it's exposed to the web.
+# The configuration of the app when it's exposed to the web..
 web:
     upstream:
         socket_family: unix
