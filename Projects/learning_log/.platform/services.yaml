@@ -1,5 +1,5 @@
 # Each service listed will be deployed in its own container as part of your Platform.sh project.
 
 db:
-    type: postgresql:17
+    type: postgresql:13
     disk: 1024
