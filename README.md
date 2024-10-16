@@ -548,7 +548,7 @@ https://pixabay.com/music/upbeat-space-120280/
       - [9.2.3.2 Modifying an Attribute's Value Through a Method](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values/9.2.3.2%20Modifying%20an%20Attribute's%20Value%20Through%20a%20Method)
       - [9.2.3.3 Incrementing an Attribute's Value Through a Method](./Chapter%209%3A%20Classes/9.2%20Working%20with%20Classes%20and%20Instances/9.2.3%20Modifying%20Attribute%20Values/9.2.3.3%20Incrementing%20an%20Attribute's%20Value%20Through%20a%20Method)
   - [9.3 Inheritance](./Chapter%209%3A%20Classes/9.3%20Inheritance)
-    - [9.3.1 The __init__ Method for a Child Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.1%20The%20__init__%20Method%20for%20a%20Child%20Class)
+    - [9.3.1 The init Method for a Child Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.1%20The%20__init__%20Method%20for%20a%20Child%20Class)
     - [9.3.2 Defining Attributes and Methods for the Child Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.2%20Defining%20Attributes%20and%20Methods%20for%20the%20Child%20Class)
     - [9.3.3 Overriding Methods from the Parent Class](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.3%20Overriding%20Methods%20from%20the%20Parent%20Class)
     - [9.3.4 Instances as Attributes](./Chapter%209%3A%20Classes/9.3%20Inheritance/9.3.4%20Instances%20as%20Attributes)
