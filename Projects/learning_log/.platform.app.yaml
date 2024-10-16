@@ -1,8 +1,8 @@
 name: "ll_project"
 type: "python:3.12"
 
-# relationships:
-#     database: "postgresql:postgresql"
+relationships:
+    database: "postgresql:postgresql"
 
 # The configuration of the app when it's exposed to the web.
 web:
@@ -13,7 +13,7 @@ web:
     locations:
         "/":
             passthru: true
-        "Projects/learning_log/static":
+        "/static":
             root: "static"
             expires: 1h
             allow: true
