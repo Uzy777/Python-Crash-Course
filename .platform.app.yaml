@@ -35,6 +35,7 @@ hooks:
         pip install -r requirements.txt
         pip install -r requirements_remote.txt
         
+        cd Projects/learning_log  
         mkdir logs
         python manage.py collectstatic
         rm -rf logs
