@@ -340,19 +340,16 @@ https://pixabay.com/music/upbeat-space-120280/
 
 
 - **Chapter 1: Basics**
-  - [1.1 Running a Hello World Program](./Chapter%201%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
-  
+  - [1.1 Running a Hello World Program](./Chapter%201%20Basics/1.1%20Running%20a%20Hello%20World%20Program/)
 - **Chapter 2: Variables and Simple Data Types**
-  - [2.1 Variables](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
-  - [2.2 Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings)
-    - [2.2.1 Changing Case in a String with Methods](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.1%20Changing%20Case%20in%20a%20String%20with%20Methods)
-    - [2.2.2 Using Variables in Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.2%20Using%20Variables%20in%20Strings)
-    - [2.2.3 Avoiding Syntax Errors with Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.3%20Avoiding%20Syntax%20Errors%20with%20Strings)
-  - [2.3 Numbers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers)
-    - [2.3.1 Integers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.1%20Integers)
-    - [2.3.2 Floats](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.2%20Floats)
-    - [2.3.3 Integers and Floats](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.3%20Integers%20and%20Floats)
-    - [2.3.4 Underscores in Numbers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.4%20Underscores%20in%20Numbers)
-    - [2.3.5 Multiple Assignment](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.5%20Multiple%20Assignment)
-    - [2.3.6 Constants](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.6%20Constants)
-  - [2.4 Comments](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.4%20Comments)
+  - [2.1 Variables](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables/)
+  - [2.2 Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/)
+  - [2.3 Numbers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/)
+  - [2.4 Comments](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.4%20Comments/)
+  - [2.5 The Zen of Python](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.5%20The%20Zen%20of%20Python/)
+- **Chapter 3: Introducing Lists**
+  - [3.1 What is a List](./Chapter%203%20Introducing%20Lists/3.1%20What%20is%20a%20List/)
+  - [3.2 Modifying Adding and Removing Elements](./Chapter%203%20Introducing%20Lists/3.2%20Modifying%20Adding%20and%20Removing%20Elements/)
+  - [3.3 Organising a List](./Chapter%203%20Introducing%20Lists/3.3%20Organising%20a%20List/)
+  - [3.4 Avoiding Index Errors When Working with Lists](./Chapter%203%20Introducing%20Lists/3.4%20Avoiding%20Index%20Errors%20When%20Working%20with%20Lists/)
+
