@@ -1,0 +1,27 @@
+❯ platform environment:ssh
+
+ ___ _      _    __                    _    
+| _ \ |__ _| |_ / _|___ _ _ _ __    __| |_  
+|  _/ / _` |  _|  _/ _ \ '_| '  \ _(_-< ' \ 
+|_| |_\__,_|\__|_| \___/_| |_|_|_(_)__/_||_|
+                                            
+
+ Welcome to Platform.sh.
+
+Environment: master-####
+Branch: master
+Project: #####
+
+web@ll_project.0:~$ cd Projects/learning_log/
+web@ll_project.0:~/Projects/learning_log$ ls
+accounts       ll_project  notes.txt         requirements_remote.txt
+learning_logs  manage.py   requirements.txt  static
+web@ll_project.0:~/Projects/learning_log$ python manage.py createsuperuser
+Username (leave blank to use 'web'): ll_admin_live
+Email address: 
+Password: 
+Password (again): 
+Superuser created successfully.
+web@ll_project.0:~/Projects/learning_log$ exit
+logout
+Connection to ssh.uk-1.platform.sh closed.

@@ -1,0 +1,7 @@
+❯ platform url
+Enter a number to open a URL
+  [0] https://master-####-####.uk-1.platformsh.site/
+  [1] https://www.master-####-####.uk-1.platformsh.site/
+  [2] http://master-####-####.uk-1.platformsh.site/
+  [3] http://www.master-####-####.uk-1.platformsh.site/
+ > 

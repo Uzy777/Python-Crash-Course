@@ -1,0 +1,104 @@
+Python-Crash-Course/Projects/learning_log on  master via 🐍 v3.12.0 (ll_env) 
+❯ platform push
+Selected project: ll_project (######)
+
+Pushing HEAD to the environment master (type: production).
+
+Are you sure you want to continue? [Y/n] Y
+
+  Enumerating objects: 16, done.
+  Counting objects: 100% (16/16), done.
+  Delta compression using up to 16 threads
+  Compressing objects: 100% (6/6), done.
+  Writing objects: 100% (9/9), 679 bytes | 679.00 KiB/s, done.
+  Total 9 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+
+  Validating submodules
+
+  Validating configuration files
+
+  Processing activity: name name pushed to Master
+      Found 1 new commit
+
+      Waking up the environment
+      Building application 'll_project' (runtime type: python:3.12, tree: 2f4fc69)
+        Generating runtime configuration.
+        
+        Executing build hook...
+          Requirement already satisfied: pip in /opt/python/3.12/lib/python3.12/site-packages (23.2.1)
+          Collecting pip
+            Obtaining dependency information for pip from https://files.pythonhosted.org/packages/d4/55/90db48d85f7689ec6f81c0db0622d704306c5284850383c090e6c7195a5c/pip-24.2-py3-none-any.whl.metadata
+            Using cached pip-24.2-py3-none-any.whl.metadata (3.6 kB)
+          Using cached pip-24.2-py3-none-any.whl (1.8 MB)
+          Installing collected packages: pip
+          Successfully installed pip-24.2
+          Collecting asgiref==3.8.1 (from -r requirements.txt (line 1))
+            Using cached asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+          Collecting Django==5.1.2 (from -r requirements.txt (line 2))
+            Using cached Django-5.1.2-py3-none-any.whl.metadata (4.2 kB)
+          Collecting django-bootstrap5==24.3 (from -r requirements.txt (line 3))
+            Using cached django_bootstrap5-24.3-py3-none-any.whl.metadata (5.6 kB)
+          Collecting platformshconfig==2.4.0 (from -r requirements.txt (line 4))
+            Using cached platformshconfig-2.4.0-py3-none-any.whl.metadata (9.7 kB)
+          Collecting sqlparse==0.5.1 (from -r requirements.txt (line 5))
+            Using cached sqlparse-0.5.1-py3-none-any.whl.metadata (3.9 kB)
+          Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+          Using cached Django-5.1.2-py3-none-any.whl (8.3 MB)
+          Using cached django_bootstrap5-24.3-py3-none-any.whl (26 kB)
+          Using cached platformshconfig-2.4.0-py3-none-any.whl (11 kB)
+          Using cached sqlparse-0.5.1-py3-none-any.whl (44 kB)
+          Installing collected packages: platformshconfig, sqlparse, asgiref, Django, django-bootstrap5
+          Successfully installed Django-5.1.2 asgiref-3.8.1 django-bootstrap5-24.3 platformshconfig-2.4.0 sqlparse-0.5.1
+          Collecting gunicorn (from -r requirements_remote.txt (line 2))
+            Using cached gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+          Collecting psycopg2 (from -r requirements_remote.txt (line 3))
+            Downloading psycopg2-2.9.10.tar.gz (385 kB)
+            Preparing metadata (setup.py): started
+            Preparing metadata (setup.py): finished with status 'done'
+          Collecting packaging (from gunicorn->-r requirements_remote.txt (line 2))
+            Using cached packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+          Using cached gunicorn-23.0.0-py3-none-any.whl (85 kB)
+          Using cached packaging-24.1-py3-none-any.whl (53 kB)
+          Building wheels for collected packages: psycopg2
+            Building wheel for psycopg2 (setup.py): started
+            Building wheel for psycopg2 (setup.py): finished with status 'done'
+            Created wheel for psycopg2: filename=psycopg2-2.9.10-cp312-cp312-linux_x86_64.whl size=504853 sha256=10b919701ae369c281ba70eb1211217434813e24fb05b9c9629138e122db5f7c
+            Stored in directory: /mnt/cache/pip/wheels/ac/bb/ce/afa589c50b6004d3a06fc691e71bd09c9bd5f01e5921e5329b
+          Successfully built psycopg2
+          Installing collected packages: psycopg2, packaging, gunicorn
+          Successfully installed gunicorn-23.0.0 packaging-24.1 psycopg2-2.9.10
+          
+          127 static files copied to '/app/Projects/learning_log/static'.
+        
+        Executing pre-flight checks...
+
+        Compressing application.
+        Beaming package to its final destination.
+
+      Provisioning certificates
+        Certificates
+        - certificate #####: expiring on 2025-01-14 11:14:44+00:00, covering {,www}.master-#####-#####.uk-1.platformsh.site
+      
+
+      Redeploying environment master
+        Preparing deployment
+        Closing services ll_project, db, and router
+        Updating endpoints for ll_project
+        Opening application ll_project and its relationships
+        Executing deploy hook for application ll_project
+          Operations to perform:
+            Apply all migrations: admin, auth, contenttypes, learning_logs, sessions
+          Running migrations:
+            No migrations to apply.
+
+        Opening environment
+        Environment configuration
+          ll_project (type: python:3.12, size: S, disk: 512)
+          db (type: postgresql:16, size: S, disk: 1024)
+
+        Environment routes
+
+
+
+  To git.uk-1.platform.sh:#####.git
+     75fbc93..c4b39f7  HEAD -> master
