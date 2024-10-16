@@ -33,7 +33,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [The Zen of Python](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/Try%20It%20Yourself/The%20Zen%20of%20Python)
     - [Variables](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/Try%20It%20Yourself/Variables)
 
-- **Chapter 3: Introducing Lists**
+## Chapter 3: Introducing Lists
   - [3.1 What is a List](./Chapter%203%3A%20Introducing%20Lists/3.1%20What%20is%20a%20List)
     - [3.1.1 Accessing Elements in a List](./Chapter%203%3A%20Introducing%20Lists/3.1%20What%20is%20a%20List/3.1.1%20Accessing%20Elements%20in%20a%20List)
     - [3.1.2 Index Positions Start at 0 Not 1](./Chapter%203%3A%20Introducing%20Lists/3.1%20What%20is%20a%20List/3.1.2%20Index%20Positions%20Start%20at%200%20Not%201)
@@ -60,7 +60,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Organising a List](./Chapter%203%3A%20Introducing%20Lists/Try%20It%20Yourself/Organising%20a%20List)
     - [What is a List](./Chapter%203%3A%20Introducing%20Lists/Try%20It%20Yourself/What%20is%20a%20List)
 
-- **Chapter 4: Working With Lists**
+## Chapter 4: Working With Lists
   - [4.1 Looping Through an Entire List](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List)
     - [4.1.1 Doing More Work Within a for Loop](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List/4.1.1%20Doing%20More%20Work%20Within%20a%20for%20Loop)
     - [4.1.2 Doing Something After a for Loop](./Chapter%204%3A%20Working%20With%20Lists/4.1%20Looping%20Through%20an%20Entire%20List/4.1.2%20Doing%20Something%20After%20a%20for%20Loop)
@@ -89,7 +89,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Tuples](./Chapter%204%3A%20Working%20With%20Lists/Try%20It%20Yourself/Tuples)
     - [Working with Part of a List](./Chapter%204%3A%20Working%20With%20Lists/Try%20It%20Yourself/Working%20with%20Part%20of%20a%20List)
 
-- **Chapter 5: If Statements**
+## Chapter 5: If Statements
   - [5.1 A Simple Example](./Chapter%205%3A%20If%20Statements/5.1%20A%20Simple%20Example)
   - [5.2 Conditional Tests](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests)
     - [5.2.1 Checking for Equality](./Chapter%205%3A%20If%20Statements/5.2%20Conditional%20Tests/5.2.1%20Checking%20for%20Equality)
@@ -120,7 +120,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Styling Your if Statements](./Chapter%205%3A%20If%20Statements/Try%20It%20Yourself/Styling%20Your%20if%20Statements)
     - [Using if Statements with Lists](./Chapter%205%3A%20If%20Statements/Try%20It%20Yourself/Using%20if%20Statements%20with%20Lists)
 
-- **Chapter 6: Dictionaries**
+## Chapter 6: Dictionaries
   - [6.1 A Simple Dictionary](./Chapter%206%3A%20Dictionaries/6.1%20A%20Simple%20Dictionary)
   - [6.2 Working with Dictionaries](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries)
     - [6.2.1 Accessing Values in a Dictionary](./Chapter%206%3A%20Dictionaries/6.2%20Working%20with%20Dictionaries/6.2.1%20Accessing%20Values%20in%20a%20Dictionary)
@@ -144,7 +144,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Nesting](./Chapter%206%3A%20Dictionaries/Try%20It%20Yourself/Nesting)
     - [Working with Dictionaries](./Chapter%206%3A%20Dictionaries/Try%20It%20Yourself/Working%20with%20Dictionaries)
 
-- **Chapter 7: User Input and While Loops**
+## Chapter 7: User Input and While Loops
   - [7.1 How the input Function Works](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.1%20How%20the%20input%20Function%20Works)
     - [7.1.1 Writing Clear Prompts](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.1%20How%20the%20input%20Function%20Works/7.1.1%20Writing%20Clear%20Prompts)
     - [7.1.2 Using int to Accept Numerical Input](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/7.1%20How%20the%20input%20Function%20Works/7.1.2%20Using%20int%20to%20Accept%20Numerical%20Input)
@@ -165,7 +165,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Introducing while Loops](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/Try%20It%20Yourself/Introducing%20while%20Loops)
     - [Using a while Loop with Lists and Dictionaries](./Chapter%207%3A%20User%20Input%20and%20While%20Loops/Try%20It%20Yourself/Using%20a%20while%20Loop%20with%20Lists%20and%20Dictionaries)
 
-- **Chapter 8: Functions**
+## Chapter 8: Functions
   - [8.1 Defining a Function](./Chapter%208%3A%20Functions/8.1%20Defining%20a%20Function)
     - [8.1.1 Passing Information to a Function](./Chapter%208%3A%20Functions/8.1%20Defining%20a%20Function/8.1.1%20Passing%20Information%20to%20a%20Function)
   - [8.2 Passing Arguments](./Chapter%208%3A%20Functions/8.2%20Passing%20Arguments)
@@ -202,7 +202,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Storing Your Functions in Modules](./Chapter%208%3A%20Functions/Try%20It%20Yourself/Storing%20Your%20Functions%20in%20Modules)
     - [Styling Functions](./Chapter%208%3A%20Functions/Try%20It%20Yourself/Styling%20Functions)
 
-- **Chapter 9: Classes**
+## Chapter 9: Classes
   - [9.1 Creating and Using a Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class)
     - [9.1.1 Creating the Dog Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.1%20Creating%20the%20Dog%20Class)
     - [9.1.2 Making an Instance from a Class](./Chapter%209%3A%20Classes/9.1%20Creating%20and%20Using%20a%20Class/9.1.2%20Making%20an%20Instance%20from%20a%20Class)
@@ -234,7 +234,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [The Python Standard Library](./Chapter%209%3A%20Classes/Try%20It%20Yourself/The%20Python%20Standard%20Library)
     - [Working with Classes and Instances](./Chapter%209%3A%20Classes/Try%20It%20Yourself/Working%20with%20Classes%20and%20Instances)
 
-- **Chapter 10: Files and Exceptions**
+## Chapter 10: Files and Exceptions
   - [10.1 Reading from a File](./Chapter%2010%3A%20Files%20and%20Exceptions/10.1%20Reading%20from%20a%20File)
     - [10.1.1 Reading the Contents of a File](./Chapter%2010%3A%20Files%20and%20Exceptions/10.1%20Reading%20from%20a%20File/10.1.1%20Reading%20the%20Contents%20of%20a%20File)
     - [10.1.2 Relative and Absolute File Paths](./Chapter%2010%3A%20Files%20and%20Exceptions/10.1%20Reading%20from%20a%20File/10.1.2%20Relative%20and%20Absolute%20File%20Paths)
@@ -264,7 +264,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Storing Data](./Chapter%2010%3A%20Files%20and%20Exceptions/Try%20It%20Yourself/Storing%20Data)
     - [Writing to a File](./Chapter%2010%3A%20Files%20and%20Exceptions/Try%20It%20Yourself/Writing%20to%20a%20File)
 
-- **Chapter 11: Testing Your Code**
+## Chapter 11: Testing Your Code
   - [11.1 Installing Pytest with Pip](./Chapter%2011%3A%20Testing%20Your%20Code/11.1%20Installing%20Pytest%20with%20Pip)
     - [11.1.1 Updating pip](./Chapter%2011%3A%20Testing%20Your%20Code/11.1%20Installing%20Pytest%20with%20Pip/11.1.1%20Updating%20pip)
     - [11.1.2 Installing pytest](./Chapter%2011%3A%20Testing%20Your%20Code/11.1%20Installing%20Pytest%20with%20Pip/11.1.2%20Installing%20pytest)
@@ -282,7 +282,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [Testing a Class](./Chapter%2011%3A%20Testing%20Your%20Code/Try%20It%20Yourself/Testing%20a%20Class)
     - [Testing a Function](./Chapter%2011%3A%20Testing%20Your%20Code/Try%20It%20Yourself/Testing%20a%20Function)
 
-- **Chapter 12: A Ship that Fires Bullets**
+## Chapter 12: A Ship that Fires Bullets
   - [12.1 Planning Your Project](./Chapter%2012%3A%20A%20Ship%20that%20Fires%20Bullets/12.1%20Planning%20Your%20Project)
   - [12.2 Starting the Game Project](./Chapter%2012%3A%20A%20Ship%20that%20Fires%20Bullets/12.2%20Starting%20the%20Game%20Project)
     - [12.2.1 Creating a Pygame Window and Responding to User Input](./Chapter%2012%3A%20A%20Ship%20that%20Fires%20Bullets/12.2%20Starting%20the%20Game%20Project/12.2.1%20Creating%20a%20Pygame%20Window%20and%20Responding%20to%20User%20Input)
@@ -314,7 +314,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [12.6.7 Creating the updatebullets Method](./Chapter%2012%3A%20A%20Ship%20that%20Fires%20Bullets/12.6%20Shooting%20Bullets/12.6.7%20Creating%20the%20updatebullets%20Method)
   - [Try It Yourself](./Chapter%2012%3A%20A%20Ship%20that%20Fires%20Bullets/Try%20It%20Yourself)
 
-- **Chapter 13: Aliens**
+# Chapter 13: Aliens
   - [13.1 Reviewing the Project](./Chapter%2013%3A%20Aliens/13.1%20Reviewing%20the%20Project)
   - [13.2 Creating the First Alien](./Chapter%2013%3A%20Aliens/13.2%20Creating%20the%20First%20Alien)
     - [13.2.1 Creating the Alien Class](./Chapter%2013%3A%20Aliens/13.2%20Creating%20the%20First%20Alien/13.2.1%20Creating%20the%20Alien%20Class)
@@ -340,7 +340,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [13.6.5 Identifying When Parts of the Game Should Run](./Chapter%2013%3A%20Aliens/13.6%20Ending%20the%20Game/13.6.5%20Identifying%20When%20Parts%20of%20the%20Game%20Should%20Run)
   - [Try It Yourself](./Chapter%2013%3A%20Aliens/Try%20It%20Yourself)
 
-- **Chapter 14: Scoring**
+## Chapter 14: Scoring
   - [14.1 Adding the Play Button](./Chapter%2014%3A%20Scoring/14.1%20Adding%20the%20Play%20Button)
     - [14.1.1 Creating a Button Class](./Chapter%2014%3A%20Scoring/14.1%20Adding%20the%20Play%20Button/14.1.1%20Creating%20a%20Button%20Class)
     - [14.1.2 Drawing the Button to the Screen](./Chapter%2014%3A%20Scoring/14.1%20Adding%20the%20Play%20Button/14.1.2%20Drawing%20the%20Button%20to%20the%20Screen)
@@ -363,7 +363,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [14.3.9 Displaying the Level](./Chapter%2014%3A%20Scoring/14.3%20Scoring/14.3.9%20Displaying%20the%20Level)
   - [Try It Yourself](./Chapter%2014%3A%20Scoring/Try%20It%20Yourself)
 
-- **Chapter 15: Generating Data**
+## Chapter 15: Generating Data
   - [15.1 Installing Matplotlib](./Chapter%2015%3A%20Generating%20Data/15.1%20Installing%20Matplotlib)
   - [15.2 Plotting a Simple Line Graph](./Chapter%2015%3A%20Generating%20Data/15.2%20Plotting%20a%20Simple%20Line%20Graph)
     - [15.2.1 Changing the Label Type and Line Thickness](./Chapter%2015%3A%20Generating%20Data/15.2%20Plotting%20a%20Simple%20Line%20Graph/15.2.1%20Changing%20the%20Label%20Type%20and%20Line%20Thickness)
@@ -399,7 +399,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [15.4.9 Rolling Dice of Different Sizes](./Chapter%2015%3A%20Generating%20Data/15.4%20Rolling%20Dice%20with%20Plotly/15.4.9%20Rolling%20Dice%20of%20Different%20Sizes)
   - [Try It Yourself](./Chapter%2015%3A%20Generating%20Data/Try%20It%20Yourself)
 
-- **Chapter 16: Downloading Data**
+## Chapter 16: Downloading Data
   - [16.1 The CSV File Format](./Chapter%2016%3A%20Downloading%20Data/16.1%20The%20CSV%20File%20Format)
     - [16.1.1 Parsing the CSV File Headers](./Chapter%2016%3A%20Downloading%20Data/16.1%20The%20CSV%20File%20Format/16.1.1%20Parsing%20the%20CSV%20File%20Headers)
     - [16.1.2 Printing the Headers and Their Positions](./Chapter%2016%3A%20Downloading%20Data/16.1%20The%20CSV%20File%20Format/16.1.2%20Printing%20the%20Headers%20and%20Their%20Positions)
@@ -425,7 +425,7 @@ https://pixabay.com/music/upbeat-space-120280/
   - [Try It Yourself](./Chapter%2016%3A%20Downloading%20Data/Try%20It%20Yourself)
   - [weather_data](./Chapter%2016%3A%20Downloading%20Data/weather_data)
 
-- **Chapter 17: Working With APIs**
+## Chapter 17: Working With APIs
   - [17.1 Using an API](./Chapter%2017%3A%20Working%20With%20ApIs/17.1%20Using%20an%20API)
     - [17.1.1 Requesting Data Using an API Call](./Chapter%2017%3A%20Working%20With%20ApIs/17.1%20Using%20an%20API/17.1.1%20Requesting%20Data%20Using%20an%20API%20Call)
     - [17.1.2 Installing Requests](./Chapter%2017%3A%20Working%20With%20ApIs/17.1%20Using%20an%20API/17.1.2%20Installing%20Requests)
@@ -440,7 +440,7 @@ https://pixabay.com/music/upbeat-space-120280/
   - [17.3 The Hacker News API](./Chapter%2017%3A%20Working%20With%20ApIs/17.3%20The%20Hacker%20News%20Api)
   - [Try It Yourself](./Chapter%2017%3A%20Working%20With%20ApIs/Try%20It%20Yourself)
 
-- **Chapter 18: Getting Started With Django**
+## Chapter 18: Getting Started With Django
   - [18.1 Setting Up a Project](./Chapter%2018%3A%20Getting%20Started%20With%20Django/18.1%20Setting%20Up%20a%20Project)
     - [18.1.1 Writing a Spec](./Chapter%2018%3A%20Getting%20Started%20With%20Django/18.1%20Setting%20Up%20a%20Project/18.1.1%20Writing%20a%20Spec)
     - [18.1.2 Creating a Virtual Environment](./Chapter%2018%3A%20Getting%20Started%20With%20Django/18.1%20Setting%20Up%20a%20Project/18.1.2%20Creating%20a%20Virtual%20Environment)
@@ -551,7 +551,7 @@ https://pixabay.com/music/upbeat-space-120280/
     - [learning_logs](./Chapter%2019%3A%20User%20Accounts/19.3%20Allowing%20Users%20to%20Own%20Their%20Data/19.3.6%20Associating%20New%20Topics%20with%20the%20Current%20User/learning_logs)
 - [Try It Yourself](./Chapter%2019%3A%20User%20Accounts/Try%20It%20Yourself)
 
-# Chapter 20: Styling and Deploying an App
+## Chapter 20: Styling and Deploying an App
 - [20.1 Styling Learning Log](./Chapter%2020%3A%20Styling%20and%20Deploying%20an%20App/20.1%20Styling%20Learning%20Log)
   - [20.1.1 The django-bootstrap5 App](./Chapter%2020%3A%20Styling%20and%20Deploying%20an%20App/20.1%20Styling%20Learning%20Log/20.1.1%20The%20django-bootstrap5%20App)
   - [20.1.3 Styling the Home Page Using a Jumbotron](./Chapter%2020%3A%20Styling%20and%20Deploying%20an%20App/20.1%20Styling%20Learning%20Log/20.1.3%20Styling%20the%20Home%20Page%20Using%20a%20Jumbotron)
@@ -587,13 +587,13 @@ https://pixabay.com/music/upbeat-space-120280/
   - [20.2.9 Creating a Project on Platform.sh](./Chapter%2020%3A%20Styling%20and%20Deploying%20an%20App/20.2%20Deploying%20Learning%20Log/20.2.9%20Creating%20a%20Project%20on%20Platform.sh)
 - [Try It Yourself](./Chapter%2020%3A%20Styling%20and%20Deploying%20an%20App/Try%20It%20Yourself)
 
-# Cheat Sheets
+## Cheat Sheets
 - [bw_sheets](./Cheat%20Sheets/bw_sheets)
   - [individual_sheets_bw](./Cheat%20Sheets/bw_sheets/individual_sheets_bw)
 - [color_sheets](./Cheat%20Sheets/color_sheets)
   - [individual_sheets_color](./Cheat%20Sheets/color_sheets/individual_sheets_color)
 
-# Projects
+## Projects
 - [alien_invasion](./Projects/alien_invasion)
 - [blog](./Projects/blog)
 - [learning_log](./Projects/learning_log)
