@@ -1,0 +1,4 @@
+platform project:delete
+
+git remote
+git remote remove platform
