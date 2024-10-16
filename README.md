@@ -339,17 +339,18 @@ https://pixabay.com/music/upbeat-space-120280/
 
 
 - **Chapter 1: Basics**
-  - [1.1 Running a Hello World Program](./tree/master/Chapter%201%3A%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
+  - [1.1 Running a Hello World Program](./Chapter%201%3A%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
 - **Chapter 2: Variables and Simple Data Types**
-  - [2.1 Variables](./tree/master/Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
-  - [2.2 Strings](./tree/master/Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings)
-  - [2.3 Numbers](./tree/master/Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers)
-  - [2.4 Comments](./tree/master/Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.4%20Comments)
-  - [2.5 The Zen of Python](./tree/master/Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.5%20The%20Zen%20of%20Python)
+  - [2.1 Variables](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
+  - [2.2 Strings](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings)
+  - [2.3 Numbers](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers)
+  - [2.4 Comments](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.4%20Comments)
+  - [2.5 The Zen of Python](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.5%20The%20Zen%20of%20Python)
 - **Chapter 3: Introducing Lists**
-  - [3.1 What is a List](./tree/master/Chapter%203%3A%20Introducing%20Lists/3.1%20What%20is%20a%20List)
-  - [3.2 Modifying Adding and Removing Elements](./tree/master/Chapter%203%3A%20Introducing%20Lists/3.2%20Modifying%20Adding%20and%20Removing%20Elements)
-  - [3.3 Organising a List](./tree/master/Chapter%203%3A%20Introducing%20Lists/3.3%20Organising%20a%20List)
-  - [3.4 Avoiding Index Errors When Working with Lists](./tree/master/Chapter%203%3A%20Introducing%20Lists/3.4%20Avoiding%20Index%20Errors%20When%20Working%20with%20Lists)
+  - [3.1 What is a List](./Chapter%203%3A%20Introducing%20Lists/3.1%20What%20is%20a%20List)
+  - [3.2 Modifying Adding and Removing Elements](./Chapter%203%3A%20Introducing%20Lists/3.2%20Modifying%20Adding%20and%20Removing%20Elements)
+  - [3.3 Organising a List](./Chapter%203%3A%20Introducing%20Lists/3.3%20Organising%20a%20List)
+  - [3.4 Avoiding Index Errors When Working with Lists](./Chapter%203%3A%20Introducing%20Lists/3.4%20Avoiding%20Index%20Errors%20When%20Working%20with%20Lists)
+
 
 
