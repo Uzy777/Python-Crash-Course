@@ -277,7 +277,7 @@ https://pixabay.com/music/upbeat-space-120280/
 
 
 
-- **Chapter 1: Basics**
+<!-- - **Chapter 1: Basics**
   - [1.1 Running a Hello World Program](./Chapter%201%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
 - **Chapter 2: Variables and Simple Data Types**
   - [2.1 Variables](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
@@ -329,4 +329,30 @@ https://pixabay.com/music/upbeat-space-120280/
   - [10.1 Reading from a File](./Chapter%2010%20Files%20and%20Exceptions/10.1%20Reading%20from%20a%20File)
   - [10.2 Writing to a File](./Chapter%2010%20Files%20and%20Exceptions/10.2%20Writing%20to%20a%20File)
   - [10.3 Exceptions](./Chapter%2010%20Files%20and%20Exceptions/10.3%20Exceptions)
-  - [10.4 Storing Data](./Chapter%2010%20Files%20and%20Exceptions/10.4%20Storing%20Data)
+  - [10.4 Storing Data](./Chapter%2010%20Files%20and%20Exceptions/10.4%20Storing%20Data) -->
+
+
+
+
+
+
+
+
+
+- **Chapter 1: Basics**
+  - [1.1 Running a Hello World Program](./Chapter%201%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
+  
+- **Chapter 2: Variables and Simple Data Types**
+  - [2.1 Variables](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
+  - [2.2 Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings)
+    - [2.2.1 Changing Case in a String with Methods](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.1%20Changing%20Case%20in%20a%20String%20with%20Methods)
+    - [2.2.2 Using Variables in Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.2%20Using%20Variables%20in%20Strings)
+    - [2.2.3 Avoiding Syntax Errors with Strings](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.3%20Avoiding%20Syntax%20Errors%20with%20Strings)
+  - [2.3 Numbers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers)
+    - [2.3.1 Integers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.1%20Integers)
+    - [2.3.2 Floats](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.2%20Floats)
+    - [2.3.3 Integers and Floats](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.3%20Integers%20and%20Floats)
+    - [2.3.4 Underscores in Numbers](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.4%20Underscores%20in%20Numbers)
+    - [2.3.5 Multiple Assignment](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.5%20Multiple%20Assignment)
+    - [2.3.6 Constants](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.3%20Numbers/2.3.6%20Constants)
+  - [2.4 Comments](./Chapter%202%20Variables%20and%20Simple%20Data%20Types/2.4%20Comments)
