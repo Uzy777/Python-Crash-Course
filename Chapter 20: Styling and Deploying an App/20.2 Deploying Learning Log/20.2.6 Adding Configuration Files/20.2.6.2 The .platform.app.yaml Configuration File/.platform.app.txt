@@ -1,22 +1,24 @@
 name: "ll_project"
-type: "python:3.12.0"
+type: "python:3.12"
 
 relationships:
-    database: "db.postgresql"
+    database: "db:postgresql"
 
 # The configuration of the app when it's exposed to the web.
 web:
     upstream:
         socket_family: unix
     commands:
-        start: "gunicorn -w 4 -b unix:$SOCKET ll_project.wsgi:application"
+        start: |
+            cd Projects/learning_log && gunicorn -w 4 -b unix:$SOCKET ll_project.wsgi:application
     locations:
         "/":
             passthru: true
         "/static":
-            root: "static"
+            root: "Projects/learning_log/static"  # Point to where static files are collected
             expires: 1h
             allow: true
+
 
 # The size of the persistent disk of the application (in MB).
 disk: 512
@@ -30,13 +32,14 @@ mounts:
 # The hooks executed at various points in the lifecycle of the application.
 hooks:
     build: |
+        cd Projects/learning_log  
         pip install --upgrade pip
         pip install -r requirements.txt
         pip install -r requirements_remote.txt
-
+        
         mkdir logs
         python manage.py collectstatic
         rm -rf logs
     deploy: |
+        cd Projects/learning_log
         python manage.py migrate
-        
