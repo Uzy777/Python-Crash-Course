@@ -13,7 +13,7 @@ web:
     locations:
         "/":
             passthru: true
-        "/static":
+        "Projects/learning_log/static":
             root: "static"
             expires: 1h
             allow: true
