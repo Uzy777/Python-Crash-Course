@@ -2,14 +2,15 @@ name: "ll_project"
 type: "python:3.12"
 
 relationships:
-    database: "postgresql:postgresql"
+    database: "db:postgresql"
 
 # The configuration of the app when it's exposed to the web.
 web:
     upstream:
         socket_family: unix
     commands:
-        start: "gunicorn -w 4 -b unix:$SOCKET Projects/learning_log/ll_project.wsgi:application"
+        start: |
+            cd Projects/learning_log && gunicorn -w 4 -b unix:$SOCKET ll_project.wsgi:application
     locations:
         "/":
             passthru: true
