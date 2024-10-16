@@ -30,6 +30,7 @@ mounts:
 # The hooks executed at various points in the lifecycle of the application.
 hooks:
     build: |
+        cd Projects/learning_log  
         pip install --upgrade pip
         pip install -r requirements.txt
         pip install -r requirements_remote.txt
@@ -38,4 +39,5 @@ hooks:
         python manage.py collectstatic
         rm -rf logs
     deploy: |
+        cd Projects/learning_log
         python manage.py migrate
