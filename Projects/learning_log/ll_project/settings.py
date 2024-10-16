@@ -147,7 +147,7 @@ if config.is_valid_platform():
     DEBUG = False
 
     if config.appDir:
-        STATIC_ROOT = Path(config.appDir) / 'static'
+                STATIC_ROOT = Path(config.appDir) / 'Projects' / 'learning_log' / 'static'  # Adjust this path
     if config.projectEntropy:
         SECRET_KEY = config.projectEntropy
 
