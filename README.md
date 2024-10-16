@@ -9,9 +9,8 @@ https://pixabay.com/music/upbeat-space-120280/
 
 ## Chapter 1: Basics
   - [1.1 Running a Hello World Program](./Chapter%201%3A%20Basics/1.1%20Running%20a%20Hello%20World%20Program)
-  - [Try It Yourself](./Chapter%201%3A%20Basics/Try%20It%20Yourself)
 
-- **Chapter 2: Variables and Simple Data Types**
+## Chapter 2: Variables and Simple Data Types
   - [2.1 Variables](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.1%20Variables)
   - [2.2 Strings](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings)
     - [2.2.1 Changing Case in a String with Methods](./Chapter%202%3A%20Variables%20and%20Simple%20Data%20Types/2.2%20Strings/2.2.1%20Changing%20Case%20in%20a%20String%20with%20Methods)
